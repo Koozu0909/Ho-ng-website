@@ -743,3 +743,35 @@ ul {
     margin-top: 90px;
   }
 }
+
+/*========== SCROLL UP ==========*/
+.scrollup{
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: #EBC5C5;
+  padding: 1rem;
+  display: flex;
+  opacity: .9;
+  z-index: 999;
+  transition: .4s;
+}
+
+.scrollup:hover {
+  background-color: #e49393;
+  opacity: 1;
+}
+
+.scrollup i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.show-scroll {
+  bottom: 3rem;
+}
+@media screen and (max-width: 767px) {
+  .scrollup{
+    padding: 10px 12px;
+  }
+}
